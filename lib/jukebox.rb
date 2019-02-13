@@ -47,6 +47,7 @@ def play (songs)
         puts "Playing #{i}"
         #break
       end
+    do
     puts "Invalid input, please try again"
   end
 end

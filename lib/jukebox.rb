@@ -56,23 +56,23 @@ def exit_jukebox
 end
 
 def run (song_array)
-  # help
-  # command = "test"
-  # while command != "exit" 
+  help
+  command = "test"
+  while command != "exit" 
   
-  # puts "Please enter a command:"
-  # command = gets.chomp 
+  puts "Please enter a command:"
+  command = gets.chomp 
   
-  #   if command == "help"
-  #     help
-  #   elsif command == "list"
-  #     list (song_array)
-  #   elsif command == "play"
-  #     play (song_array)
-  #   elsif command == "exit"
-  #     exit_jukebox
-  #   end
-  # end
+    if command == "help"
+      help
+    elsif command == "list"
+      list (song_array)
+    elsif command == "play"
+      play (song_array)
+    elsif command == "exit"
+      exit_jukebox
+    end
+  end
 end
 end
   

@@ -74,7 +74,6 @@ def run (song_array)
     end
   end
 end
-end
   
   
   

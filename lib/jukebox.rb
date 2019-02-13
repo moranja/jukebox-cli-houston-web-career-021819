@@ -47,7 +47,7 @@ def play (songs)
         puts "Playing #{i}"
         #break
       end
-    do
+    end
     puts "Invalid input, please try again"
   end
 end
@@ -74,7 +74,6 @@ def run(song_array)
       exit_jukebox
     end
   end
-end
 end
   
   
